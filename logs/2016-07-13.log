@@ -1,0 +1,113 @@
+ERROR - 2016-07-13 09:45:31 - exception 'ErrorException' with message 'Undefined variable: SignupModel' in /var/www/html/App/Controllers/Signup/SignupController.php:91
+Stack trace:
+#0 /var/www/html/App/Controllers/Signup/SignupController.php(91): Yee\Yee::handleErrors(8, 'Undefined varia...', '/var/www/html/A...', 91, Array)
+#1 [internal function]: SignupController->postAction()
+#2 /var/www/html/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#3 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___postAction', Array)
+#4 [internal function]: SignupController::___postAction()
+#5 /var/www/html/Yee/Route.php(462): call_user_func_array('SignupControlle...', Array)
+#6 /var/www/html/Yee/Yee.php(1333): Yee\Route->dispatch()
+#7 /var/www/html/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#8 /var/www/html/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#9 /var/www/html/Yee/Middleware/PrettyExceptions.php(67): Yee\Middleware\MethodOverride->call()
+#10 /var/www/html/Yee/Yee.php(1278): Yee\Middleware\PrettyExceptions->call()
+#11 /var/www/html/index.php(48): Yee\Yee->execute()
+#12 {main}
+ERROR - 2016-07-13 09:46:37 - exception 'ErrorException' with message 'Undefined variable: SignupModel' in /var/www/html/App/Controllers/Signup/SignupController.php:91
+Stack trace:
+#0 /var/www/html/App/Controllers/Signup/SignupController.php(91): Yee\Yee::handleErrors(8, 'Undefined varia...', '/var/www/html/A...', 91, Array)
+#1 [internal function]: SignupController->postAction()
+#2 /var/www/html/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#3 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___postAction', Array)
+#4 [internal function]: SignupController::___postAction()
+#5 /var/www/html/Yee/Route.php(462): call_user_func_array('SignupControlle...', Array)
+#6 /var/www/html/Yee/Yee.php(1333): Yee\Route->dispatch()
+#7 /var/www/html/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#8 /var/www/html/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#9 /var/www/html/Yee/Middleware/PrettyExceptions.php(67): Yee\Middleware\MethodOverride->call()
+#10 /var/www/html/Yee/Yee.php(1278): Yee\Middleware\PrettyExceptions->call()
+#11 /var/www/html/index.php(48): Yee\Yee->execute()
+#12 {main}
+ERROR - 2016-07-13 09:47:14 - exception 'ErrorException' with message 'Undefined property: App\Models\Signup\SignupModel::$username' in /var/www/html/App/Models/Signup/SignupModel.php:62
+Stack trace:
+#0 /var/www/html/App/Models/Signup/SignupModel.php(62): Yee\Yee::handleErrors(8, 'Undefined prope...', '/var/www/html/A...', 62, Array)
+#1 /var/www/html/App/Controllers/Signup/SignupController.php(91): App\Models\Signup\SignupModel->checkDB()
+#2 [internal function]: SignupController->postAction()
+#3 /var/www/html/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#4 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___postAction', Array)
+#5 [internal function]: SignupController::___postAction()
+#6 /var/www/html/Yee/Route.php(462): call_user_func_array('SignupControlle...', Array)
+#7 /var/www/html/Yee/Yee.php(1333): Yee\Route->dispatch()
+#8 /var/www/html/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#9 /var/www/html/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#10 /var/www/html/Yee/Middleware/PrettyExceptions.php(67): Yee\Middleware\MethodOverride->call()
+#11 /var/www/html/Yee/Yee.php(1278): Yee\Middleware\PrettyExceptions->call()
+#12 /var/www/html/index.php(48): Yee\Yee->execute()
+#13 {main}
+ERROR - 2016-07-13 09:50:59 - exception 'ErrorException' with message 'Undefined property: App\Models\Signup\SignupModel::$username' in /var/www/html/App/Models/Signup/SignupModel.php:62
+Stack trace:
+#0 /var/www/html/App/Models/Signup/SignupModel.php(62): Yee\Yee::handleErrors(8, 'Undefined prope...', '/var/www/html/A...', 62, Array)
+#1 /var/www/html/App/Controllers/Signup/SignupController.php(91): App\Models\Signup\SignupModel->checkDB()
+#2 [internal function]: SignupController->postAction()
+#3 /var/www/html/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#4 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___postAction', Array)
+#5 [internal function]: SignupController::___postAction()
+#6 /var/www/html/Yee/Route.php(462): call_user_func_array('SignupControlle...', Array)
+#7 /var/www/html/Yee/Yee.php(1333): Yee\Route->dispatch()
+#8 /var/www/html/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#9 /var/www/html/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#10 /var/www/html/Yee/Middleware/PrettyExceptions.php(67): Yee\Middleware\MethodOverride->call()
+#11 /var/www/html/Yee/Yee.php(1278): Yee\Middleware\PrettyExceptions->call()
+#12 /var/www/html/index.php(48): Yee\Yee->execute()
+#13 {main}
+ERROR - 2016-07-13 09:55:49 - exception 'ErrorException' with message 'Undefined property: App\Models\Signup\SignupModel::$username' in /var/www/html/App/Models/Signup/SignupModel.php:80
+Stack trace:
+#0 /var/www/html/App/Models/Signup/SignupModel.php(80): Yee\Yee::handleErrors(8, 'Undefined prope...', '/var/www/html/A...', 80, Array)
+#1 /var/www/html/App/Controllers/Signup/SignupController.php(96): App\Models\Signup\SignupModel->register()
+#2 [internal function]: SignupController->postAction()
+#3 /var/www/html/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#4 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___postAction', Array)
+#5 [internal function]: SignupController::___postAction()
+#6 /var/www/html/Yee/Route.php(462): call_user_func_array('SignupControlle...', Array)
+#7 /var/www/html/Yee/Yee.php(1333): Yee\Route->dispatch()
+#8 /var/www/html/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#9 /var/www/html/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#10 /var/www/html/Yee/Middleware/PrettyExceptions.php(67): Yee\Middleware\MethodOverride->call()
+#11 /var/www/html/Yee/Yee.php(1278): Yee\Middleware\PrettyExceptions->call()
+#12 /var/www/html/index.php(48): Yee\Yee->execute()
+#13 {main}
+ERROR - 2016-07-13 09:56:39 - exception 'ErrorException' with message 'Problem preparing query (INSERT into users(`email`, `pass`, `active`, `signupdate`) VALUES(?, ?, ?, ?)) Unknown column 'email' in 'field list'' in /var/www/html/Yee/Libraries/Database/MysqliDB.php:909
+Stack trace:
+#0 [internal function]: Yee\Yee::handleErrors(256, 'Problem prepari...', '/var/www/html/Y...', 909, Array)
+#1 /var/www/html/Yee/Libraries/Database/MysqliDB.php(909): trigger_error('Problem prepari...', 256)
+#2 /var/www/html/Yee/Libraries/Database/MysqliDB.php(648): Yee\Libraries\Database\MysqliDB->_prepareQuery()
+#3 /var/www/html/Yee/Libraries/Database/MysqliDB.php(324): Yee\Libraries\Database\MysqliDB->_buildQuery(NULL, Array)
+#4 /var/www/html/App/Models/Signup/SignupModel.php(85): Yee\Libraries\Database\MysqliDB->insert('users', Array)
+#5 /var/www/html/App/Controllers/Signup/SignupController.php(96): App\Models\Signup\SignupModel->register()
+#6 [internal function]: SignupController->postAction()
+#7 /var/www/html/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#8 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___postAction', Array)
+#9 [internal function]: SignupController::___postAction()
+#10 /var/www/html/Yee/Route.php(462): call_user_func_array('SignupControlle...', Array)
+#11 /var/www/html/Yee/Yee.php(1333): Yee\Route->dispatch()
+#12 /var/www/html/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#13 /var/www/html/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#14 /var/www/html/Yee/Middleware/PrettyExceptions.php(67): Yee\Middleware\MethodOverride->call()
+#15 /var/www/html/Yee/Yee.php(1278): Yee\Middleware\PrettyExceptions->call()
+#16 /var/www/html/index.php(48): Yee\Yee->execute()
+#17 {main}
+ERROR - 2016-07-13 12:07:41 - exception 'ErrorException' with message 'Undefined variable: error' in /var/www/html/App/Controllers/Signup/SignupController.php:60
+Stack trace:
+#0 /var/www/html/App/Controllers/Signup/SignupController.php(60): Yee\Yee::handleErrors(8, 'Undefined varia...', '/var/www/html/A...', 60, Array)
+#1 [internal function]: SignupController->postAction()
+#2 /var/www/html/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#3 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___postAction', Array)
+#4 [internal function]: SignupController::___postAction()
+#5 /var/www/html/Yee/Route.php(462): call_user_func_array('SignupControlle...', Array)
+#6 /var/www/html/Yee/Yee.php(1333): Yee\Route->dispatch()
+#7 /var/www/html/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#8 /var/www/html/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#9 /var/www/html/Yee/Middleware/PrettyExceptions.php(67): Yee\Middleware\MethodOverride->call()
+#10 /var/www/html/Yee/Yee.php(1278): Yee\Middleware\PrettyExceptions->call()
+#11 /var/www/html/index.php(48): Yee\Yee->execute()
+#12 {main}
