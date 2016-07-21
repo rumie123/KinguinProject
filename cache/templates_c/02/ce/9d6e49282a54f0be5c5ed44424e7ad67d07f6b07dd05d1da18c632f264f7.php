@@ -41,7 +41,7 @@ class __TwigTemplate_02ce9d6e49282a54f0be5c5ed44424e7ad67d07f6b07dd05d1da18c632f
                         <div class=\"row\">
                             <form method=\"post\" action=\"/signup2\">
                                 <div class=\"col-md-3 col-sm-4\">
-                                        <input id=\"email\" name=\"email\" value=\"abc@d.com\" class  placeholder=\"Your Email\" type=\"text\">
+                                        <input id=\"email\" name=\"email\" value=\"\" class  placeholder=\"Your Email\" type=\"text\">
                                               <div style=\"display:none\" class=\"alert alert-success\" role=\"alert\" id=\"error1\"> </div>
                                 </div>
 

@@ -28,10 +28,9 @@ class __TwigTemplate_f02227d5213c618684c21fe32255d1233ef04336fc58de14a9bf26a630f
 \t  <h1 class=\"text-white\">Login to continue</h1>
           <div style=\"display:none\" class=\"alert alert-success\" role=\"alert\" id=\"error\"> </div>
 \t  <div class=\"photo-form-wrapper clearfix\">
-              <form id=\"loginform\">
-               
-\t    <input name=\"emailaddress\" class=\"form-email\" placeholder=\"Email Address\" type=\"text\">
-\t    <input name=\"password\" class=\"form-password\" placeholder=\"Password\" type=\"password\">
+           <form id=\"loginform\">  
+\t    <input name=\"username\" id=\"username\" class=\"form-email\" placeholder=\"Email Address\" type=\"text\">
+\t    <input name=\"password\" id=\"password\" class=\"form-password\" placeholder=\"Password\" type=\"password\">
 \t    <input class=\"login-btn btn-filled\" value=\"Login\" type=\"submit\">
 \t   </form>
 \t   </div>
@@ -42,7 +41,7 @@ class __TwigTemplate_f02227d5213c618684c21fe32255d1233ef04336fc58de14a9bf26a630f
     </div>
 </section>
 ";
-        // line 25
+        // line 24
         $this->env->loadTemplate("./common/footer.tpl")->display($context);
     }
 
@@ -58,6 +57,6 @@ class __TwigTemplate_f02227d5213c618684c21fe32255d1233ef04336fc58de14a9bf26a630f
 
     public function getDebugInfo()
     {
-        return array (  46 => 25,  21 => 2,  19 => 1,);
+        return array (  45 => 24,  21 => 2,  19 => 1,);
     }
 }

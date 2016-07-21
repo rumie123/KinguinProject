@@ -1,0 +1,390 @@
+ERROR - 2016-07-19 12:12:52 - exception 'ErrorException' with message 'Use of undefined constant email - assumed 'email'' in /var/www/html/App/Controllers/Login/LoginController.php:27
+Stack trace:
+#0 /var/www/html/App/Controllers/Login/LoginController.php(27): Yee\Yee::handleErrors(8, 'Use of undefine...', '/var/www/html/A...', 27, Array)
+#1 [internal function]: LoginController->indexAction()
+#2 /var/www/html/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#3 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___indexAction', Array)
+#4 [internal function]: LoginController::___indexAction()
+#5 /var/www/html/Yee/Route.php(462): call_user_func_array('LoginController...', Array)
+#6 /var/www/html/Yee/Yee.php(1333): Yee\Route->dispatch()
+#7 /var/www/html/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#8 /var/www/html/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#9 /var/www/html/Yee/Middleware/PrettyExceptions.php(67): Yee\Middleware\MethodOverride->call()
+#10 /var/www/html/Yee/Yee.php(1278): Yee\Middleware\PrettyExceptions->call()
+#11 /var/www/html/index.php(48): Yee\Yee->execute()
+#12 {main}
+ERROR - 2016-07-19 12:15:48 - exception 'ErrorException' with message 'Use of undefined constant email - assumed 'email'' in /var/www/html/App/Controllers/Login/LoginController.php:27
+Stack trace:
+#0 /var/www/html/App/Controllers/Login/LoginController.php(27): Yee\Yee::handleErrors(8, 'Use of undefine...', '/var/www/html/A...', 27, Array)
+#1 [internal function]: LoginController->indexAction()
+#2 /var/www/html/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#3 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___indexAction', Array)
+#4 [internal function]: LoginController::___indexAction()
+#5 /var/www/html/Yee/Route.php(462): call_user_func_array('LoginController...', Array)
+#6 /var/www/html/Yee/Yee.php(1333): Yee\Route->dispatch()
+#7 /var/www/html/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#8 /var/www/html/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#9 /var/www/html/Yee/Middleware/PrettyExceptions.php(67): Yee\Middleware\MethodOverride->call()
+#10 /var/www/html/Yee/Yee.php(1278): Yee\Middleware\PrettyExceptions->call()
+#11 /var/www/html/index.php(48): Yee\Yee->execute()
+#12 {main}
+ERROR - 2016-07-19 12:15:51 - exception 'ErrorException' with message 'Use of undefined constant email - assumed 'email'' in /var/www/html/App/Controllers/Login/LoginController.php:27
+Stack trace:
+#0 /var/www/html/App/Controllers/Login/LoginController.php(27): Yee\Yee::handleErrors(8, 'Use of undefine...', '/var/www/html/A...', 27, Array)
+#1 [internal function]: LoginController->indexAction()
+#2 /var/www/html/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#3 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___indexAction', Array)
+#4 [internal function]: LoginController::___indexAction()
+#5 /var/www/html/Yee/Route.php(462): call_user_func_array('LoginController...', Array)
+#6 /var/www/html/Yee/Yee.php(1333): Yee\Route->dispatch()
+#7 /var/www/html/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#8 /var/www/html/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#9 /var/www/html/Yee/Middleware/PrettyExceptions.php(67): Yee\Middleware\MethodOverride->call()
+#10 /var/www/html/Yee/Yee.php(1278): Yee\Middleware\PrettyExceptions->call()
+#11 /var/www/html/index.php(48): Yee\Yee->execute()
+#12 {main}
+ERROR - 2016-07-19 12:20:40 - exception 'ErrorException' with message 'Undefined variable: data' in /var/www/html/App/Controllers/Ajax/AjaxController.php:37
+Stack trace:
+#0 /var/www/html/App/Controllers/Ajax/AjaxController.php(37): Yee\Yee::handleErrors(8, 'Undefined varia...', '/var/www/html/A...', 37, Array)
+#1 [internal function]: AjaxController->logInAjaxAction()
+#2 /var/www/html/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#3 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___logInAjaxAct...', Array)
+#4 [internal function]: AjaxController::___logInAjaxAction()
+#5 /var/www/html/Yee/Route.php(462): call_user_func_array('AjaxController:...', Array)
+#6 /var/www/html/Yee/Yee.php(1333): Yee\Route->dispatch()
+#7 /var/www/html/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#8 /var/www/html/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#9 /var/www/html/Yee/Middleware/PrettyExceptions.php(67): Yee\Middleware\MethodOverride->call()
+#10 /var/www/html/Yee/Yee.php(1278): Yee\Middleware\PrettyExceptions->call()
+#11 /var/www/html/index.php(48): Yee\Yee->execute()
+#12 {main}
+ERROR - 2016-07-19 12:20:41 - exception 'ErrorException' with message 'Undefined variable: data' in /var/www/html/App/Controllers/Ajax/AjaxController.php:37
+Stack trace:
+#0 /var/www/html/App/Controllers/Ajax/AjaxController.php(37): Yee\Yee::handleErrors(8, 'Undefined varia...', '/var/www/html/A...', 37, Array)
+#1 [internal function]: AjaxController->logInAjaxAction()
+#2 /var/www/html/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#3 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___logInAjaxAct...', Array)
+#4 [internal function]: AjaxController::___logInAjaxAction()
+#5 /var/www/html/Yee/Route.php(462): call_user_func_array('AjaxController:...', Array)
+#6 /var/www/html/Yee/Yee.php(1333): Yee\Route->dispatch()
+#7 /var/www/html/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#8 /var/www/html/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#9 /var/www/html/Yee/Middleware/PrettyExceptions.php(67): Yee\Middleware\MethodOverride->call()
+#10 /var/www/html/Yee/Yee.php(1278): Yee\Middleware\PrettyExceptions->call()
+#11 /var/www/html/index.php(48): Yee\Yee->execute()
+#12 {main}
+ERROR - 2016-07-19 12:20:42 - exception 'ErrorException' with message 'Undefined variable: data' in /var/www/html/App/Controllers/Ajax/AjaxController.php:37
+Stack trace:
+#0 /var/www/html/App/Controllers/Ajax/AjaxController.php(37): Yee\Yee::handleErrors(8, 'Undefined varia...', '/var/www/html/A...', 37, Array)
+#1 [internal function]: AjaxController->logInAjaxAction()
+#2 /var/www/html/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#3 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___logInAjaxAct...', Array)
+#4 [internal function]: AjaxController::___logInAjaxAction()
+#5 /var/www/html/Yee/Route.php(462): call_user_func_array('AjaxController:...', Array)
+#6 /var/www/html/Yee/Yee.php(1333): Yee\Route->dispatch()
+#7 /var/www/html/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#8 /var/www/html/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#9 /var/www/html/Yee/Middleware/PrettyExceptions.php(67): Yee\Middleware\MethodOverride->call()
+#10 /var/www/html/Yee/Yee.php(1278): Yee\Middleware\PrettyExceptions->call()
+#11 /var/www/html/index.php(48): Yee\Yee->execute()
+#12 {main}
+ERROR - 2016-07-19 12:20:42 - exception 'ErrorException' with message 'Undefined variable: data' in /var/www/html/App/Controllers/Ajax/AjaxController.php:37
+Stack trace:
+#0 /var/www/html/App/Controllers/Ajax/AjaxController.php(37): Yee\Yee::handleErrors(8, 'Undefined varia...', '/var/www/html/A...', 37, Array)
+#1 [internal function]: AjaxController->logInAjaxAction()
+#2 /var/www/html/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#3 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___logInAjaxAct...', Array)
+#4 [internal function]: AjaxController::___logInAjaxAction()
+#5 /var/www/html/Yee/Route.php(462): call_user_func_array('AjaxController:...', Array)
+#6 /var/www/html/Yee/Yee.php(1333): Yee\Route->dispatch()
+#7 /var/www/html/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#8 /var/www/html/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#9 /var/www/html/Yee/Middleware/PrettyExceptions.php(67): Yee\Middleware\MethodOverride->call()
+#10 /var/www/html/Yee/Yee.php(1278): Yee\Middleware\PrettyExceptions->call()
+#11 /var/www/html/index.php(48): Yee\Yee->execute()
+#12 {main}
+ERROR - 2016-07-19 12:20:42 - exception 'ErrorException' with message 'Undefined variable: data' in /var/www/html/App/Controllers/Ajax/AjaxController.php:37
+Stack trace:
+#0 /var/www/html/App/Controllers/Ajax/AjaxController.php(37): Yee\Yee::handleErrors(8, 'Undefined varia...', '/var/www/html/A...', 37, Array)
+#1 [internal function]: AjaxController->logInAjaxAction()
+#2 /var/www/html/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#3 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___logInAjaxAct...', Array)
+#4 [internal function]: AjaxController::___logInAjaxAction()
+#5 /var/www/html/Yee/Route.php(462): call_user_func_array('AjaxController:...', Array)
+#6 /var/www/html/Yee/Yee.php(1333): Yee\Route->dispatch()
+#7 /var/www/html/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#8 /var/www/html/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#9 /var/www/html/Yee/Middleware/PrettyExceptions.php(67): Yee\Middleware\MethodOverride->call()
+#10 /var/www/html/Yee/Yee.php(1278): Yee\Middleware\PrettyExceptions->call()
+#11 /var/www/html/index.php(48): Yee\Yee->execute()
+#12 {main}
+ERROR - 2016-07-19 12:21:51 - exception 'ErrorException' with message 'Undefined variable: data' in /var/www/html/App/Controllers/Ajax/AjaxController.php:37
+Stack trace:
+#0 /var/www/html/App/Controllers/Ajax/AjaxController.php(37): Yee\Yee::handleErrors(8, 'Undefined varia...', '/var/www/html/A...', 37, Array)
+#1 [internal function]: AjaxController->logInAjaxAction()
+#2 /var/www/html/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#3 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___logInAjaxAct...', Array)
+#4 [internal function]: AjaxController::___logInAjaxAction()
+#5 /var/www/html/Yee/Route.php(462): call_user_func_array('AjaxController:...', Array)
+#6 /var/www/html/Yee/Yee.php(1333): Yee\Route->dispatch()
+#7 /var/www/html/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#8 /var/www/html/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#9 /var/www/html/Yee/Middleware/PrettyExceptions.php(67): Yee\Middleware\MethodOverride->call()
+#10 /var/www/html/Yee/Yee.php(1278): Yee\Middleware\PrettyExceptions->call()
+#11 /var/www/html/index.php(48): Yee\Yee->execute()
+#12 {main}
+ERROR - 2016-07-19 12:21:52 - exception 'ErrorException' with message 'Undefined variable: data' in /var/www/html/App/Controllers/Ajax/AjaxController.php:37
+Stack trace:
+#0 /var/www/html/App/Controllers/Ajax/AjaxController.php(37): Yee\Yee::handleErrors(8, 'Undefined varia...', '/var/www/html/A...', 37, Array)
+#1 [internal function]: AjaxController->logInAjaxAction()
+#2 /var/www/html/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#3 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___logInAjaxAct...', Array)
+#4 [internal function]: AjaxController::___logInAjaxAction()
+#5 /var/www/html/Yee/Route.php(462): call_user_func_array('AjaxController:...', Array)
+#6 /var/www/html/Yee/Yee.php(1333): Yee\Route->dispatch()
+#7 /var/www/html/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#8 /var/www/html/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#9 /var/www/html/Yee/Middleware/PrettyExceptions.php(67): Yee\Middleware\MethodOverride->call()
+#10 /var/www/html/Yee/Yee.php(1278): Yee\Middleware\PrettyExceptions->call()
+#11 /var/www/html/index.php(48): Yee\Yee->execute()
+#12 {main}
+ERROR - 2016-07-19 12:21:52 - exception 'ErrorException' with message 'Undefined variable: data' in /var/www/html/App/Controllers/Ajax/AjaxController.php:37
+Stack trace:
+#0 /var/www/html/App/Controllers/Ajax/AjaxController.php(37): Yee\Yee::handleErrors(8, 'Undefined varia...', '/var/www/html/A...', 37, Array)
+#1 [internal function]: AjaxController->logInAjaxAction()
+#2 /var/www/html/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#3 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___logInAjaxAct...', Array)
+#4 [internal function]: AjaxController::___logInAjaxAction()
+#5 /var/www/html/Yee/Route.php(462): call_user_func_array('AjaxController:...', Array)
+#6 /var/www/html/Yee/Yee.php(1333): Yee\Route->dispatch()
+#7 /var/www/html/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#8 /var/www/html/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#9 /var/www/html/Yee/Middleware/PrettyExceptions.php(67): Yee\Middleware\MethodOverride->call()
+#10 /var/www/html/Yee/Yee.php(1278): Yee\Middleware\PrettyExceptions->call()
+#11 /var/www/html/index.php(48): Yee\Yee->execute()
+#12 {main}
+ERROR - 2016-07-19 12:21:52 - exception 'ErrorException' with message 'Undefined variable: data' in /var/www/html/App/Controllers/Ajax/AjaxController.php:37
+Stack trace:
+#0 /var/www/html/App/Controllers/Ajax/AjaxController.php(37): Yee\Yee::handleErrors(8, 'Undefined varia...', '/var/www/html/A...', 37, Array)
+#1 [internal function]: AjaxController->logInAjaxAction()
+#2 /var/www/html/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#3 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___logInAjaxAct...', Array)
+#4 [internal function]: AjaxController::___logInAjaxAction()
+#5 /var/www/html/Yee/Route.php(462): call_user_func_array('AjaxController:...', Array)
+#6 /var/www/html/Yee/Yee.php(1333): Yee\Route->dispatch()
+#7 /var/www/html/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#8 /var/www/html/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#9 /var/www/html/Yee/Middleware/PrettyExceptions.php(67): Yee\Middleware\MethodOverride->call()
+#10 /var/www/html/Yee/Yee.php(1278): Yee\Middleware\PrettyExceptions->call()
+#11 /var/www/html/index.php(48): Yee\Yee->execute()
+#12 {main}
+ERROR - 2016-07-19 12:21:52 - exception 'ErrorException' with message 'Undefined variable: data' in /var/www/html/App/Controllers/Ajax/AjaxController.php:37
+Stack trace:
+#0 /var/www/html/App/Controllers/Ajax/AjaxController.php(37): Yee\Yee::handleErrors(8, 'Undefined varia...', '/var/www/html/A...', 37, Array)
+#1 [internal function]: AjaxController->logInAjaxAction()
+#2 /var/www/html/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#3 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___logInAjaxAct...', Array)
+#4 [internal function]: AjaxController::___logInAjaxAction()
+#5 /var/www/html/Yee/Route.php(462): call_user_func_array('AjaxController:...', Array)
+#6 /var/www/html/Yee/Yee.php(1333): Yee\Route->dispatch()
+#7 /var/www/html/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#8 /var/www/html/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#9 /var/www/html/Yee/Middleware/PrettyExceptions.php(67): Yee\Middleware\MethodOverride->call()
+#10 /var/www/html/Yee/Yee.php(1278): Yee\Middleware\PrettyExceptions->call()
+#11 /var/www/html/index.php(48): Yee\Yee->execute()
+#12 {main}
+ERROR - 2016-07-19 12:21:52 - exception 'ErrorException' with message 'Undefined variable: data' in /var/www/html/App/Controllers/Ajax/AjaxController.php:37
+Stack trace:
+#0 /var/www/html/App/Controllers/Ajax/AjaxController.php(37): Yee\Yee::handleErrors(8, 'Undefined varia...', '/var/www/html/A...', 37, Array)
+#1 [internal function]: AjaxController->logInAjaxAction()
+#2 /var/www/html/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#3 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___logInAjaxAct...', Array)
+#4 [internal function]: AjaxController::___logInAjaxAction()
+#5 /var/www/html/Yee/Route.php(462): call_user_func_array('AjaxController:...', Array)
+#6 /var/www/html/Yee/Yee.php(1333): Yee\Route->dispatch()
+#7 /var/www/html/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#8 /var/www/html/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#9 /var/www/html/Yee/Middleware/PrettyExceptions.php(67): Yee\Middleware\MethodOverride->call()
+#10 /var/www/html/Yee/Yee.php(1278): Yee\Middleware\PrettyExceptions->call()
+#11 /var/www/html/index.php(48): Yee\Yee->execute()
+#12 {main}
+ERROR - 2016-07-19 12:21:53 - exception 'ErrorException' with message 'Undefined variable: data' in /var/www/html/App/Controllers/Ajax/AjaxController.php:37
+Stack trace:
+#0 /var/www/html/App/Controllers/Ajax/AjaxController.php(37): Yee\Yee::handleErrors(8, 'Undefined varia...', '/var/www/html/A...', 37, Array)
+#1 [internal function]: AjaxController->logInAjaxAction()
+#2 /var/www/html/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#3 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___logInAjaxAct...', Array)
+#4 [internal function]: AjaxController::___logInAjaxAction()
+#5 /var/www/html/Yee/Route.php(462): call_user_func_array('AjaxController:...', Array)
+#6 /var/www/html/Yee/Yee.php(1333): Yee\Route->dispatch()
+#7 /var/www/html/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#8 /var/www/html/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#9 /var/www/html/Yee/Middleware/PrettyExceptions.php(67): Yee\Middleware\MethodOverride->call()
+#10 /var/www/html/Yee/Yee.php(1278): Yee\Middleware\PrettyExceptions->call()
+#11 /var/www/html/index.php(48): Yee\Yee->execute()
+#12 {main}
+ERROR - 2016-07-19 12:21:53 - exception 'ErrorException' with message 'Undefined variable: data' in /var/www/html/App/Controllers/Ajax/AjaxController.php:37
+Stack trace:
+#0 /var/www/html/App/Controllers/Ajax/AjaxController.php(37): Yee\Yee::handleErrors(8, 'Undefined varia...', '/var/www/html/A...', 37, Array)
+#1 [internal function]: AjaxController->logInAjaxAction()
+#2 /var/www/html/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#3 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___logInAjaxAct...', Array)
+#4 [internal function]: AjaxController::___logInAjaxAction()
+#5 /var/www/html/Yee/Route.php(462): call_user_func_array('AjaxController:...', Array)
+#6 /var/www/html/Yee/Yee.php(1333): Yee\Route->dispatch()
+#7 /var/www/html/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#8 /var/www/html/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#9 /var/www/html/Yee/Middleware/PrettyExceptions.php(67): Yee\Middleware\MethodOverride->call()
+#10 /var/www/html/Yee/Yee.php(1278): Yee\Middleware\PrettyExceptions->call()
+#11 /var/www/html/index.php(48): Yee\Yee->execute()
+#12 {main}
+ERROR - 2016-07-19 12:21:53 - exception 'ErrorException' with message 'Undefined variable: data' in /var/www/html/App/Controllers/Ajax/AjaxController.php:37
+Stack trace:
+#0 /var/www/html/App/Controllers/Ajax/AjaxController.php(37): Yee\Yee::handleErrors(8, 'Undefined varia...', '/var/www/html/A...', 37, Array)
+#1 [internal function]: AjaxController->logInAjaxAction()
+#2 /var/www/html/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#3 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___logInAjaxAct...', Array)
+#4 [internal function]: AjaxController::___logInAjaxAction()
+#5 /var/www/html/Yee/Route.php(462): call_user_func_array('AjaxController:...', Array)
+#6 /var/www/html/Yee/Yee.php(1333): Yee\Route->dispatch()
+#7 /var/www/html/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#8 /var/www/html/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#9 /var/www/html/Yee/Middleware/PrettyExceptions.php(67): Yee\Middleware\MethodOverride->call()
+#10 /var/www/html/Yee/Yee.php(1278): Yee\Middleware\PrettyExceptions->call()
+#11 /var/www/html/index.php(48): Yee\Yee->execute()
+#12 {main}
+ERROR - 2016-07-19 12:21:53 - exception 'ErrorException' with message 'Undefined variable: data' in /var/www/html/App/Controllers/Ajax/AjaxController.php:37
+Stack trace:
+#0 /var/www/html/App/Controllers/Ajax/AjaxController.php(37): Yee\Yee::handleErrors(8, 'Undefined varia...', '/var/www/html/A...', 37, Array)
+#1 [internal function]: AjaxController->logInAjaxAction()
+#2 /var/www/html/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#3 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___logInAjaxAct...', Array)
+#4 [internal function]: AjaxController::___logInAjaxAction()
+#5 /var/www/html/Yee/Route.php(462): call_user_func_array('AjaxController:...', Array)
+#6 /var/www/html/Yee/Yee.php(1333): Yee\Route->dispatch()
+#7 /var/www/html/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#8 /var/www/html/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#9 /var/www/html/Yee/Middleware/PrettyExceptions.php(67): Yee\Middleware\MethodOverride->call()
+#10 /var/www/html/Yee/Yee.php(1278): Yee\Middleware\PrettyExceptions->call()
+#11 /var/www/html/index.php(48): Yee\Yee->execute()
+#12 {main}
+ERROR - 2016-07-19 12:21:54 - exception 'ErrorException' with message 'Undefined variable: data' in /var/www/html/App/Controllers/Ajax/AjaxController.php:37
+Stack trace:
+#0 /var/www/html/App/Controllers/Ajax/AjaxController.php(37): Yee\Yee::handleErrors(8, 'Undefined varia...', '/var/www/html/A...', 37, Array)
+#1 [internal function]: AjaxController->logInAjaxAction()
+#2 /var/www/html/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#3 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___logInAjaxAct...', Array)
+#4 [internal function]: AjaxController::___logInAjaxAction()
+#5 /var/www/html/Yee/Route.php(462): call_user_func_array('AjaxController:...', Array)
+#6 /var/www/html/Yee/Yee.php(1333): Yee\Route->dispatch()
+#7 /var/www/html/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#8 /var/www/html/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#9 /var/www/html/Yee/Middleware/PrettyExceptions.php(67): Yee\Middleware\MethodOverride->call()
+#10 /var/www/html/Yee/Yee.php(1278): Yee\Middleware\PrettyExceptions->call()
+#11 /var/www/html/index.php(48): Yee\Yee->execute()
+#12 {main}
+ERROR - 2016-07-19 12:22:01 - exception 'ErrorException' with message 'Undefined variable: data' in /var/www/html/App/Controllers/Ajax/AjaxController.php:37
+Stack trace:
+#0 /var/www/html/App/Controllers/Ajax/AjaxController.php(37): Yee\Yee::handleErrors(8, 'Undefined varia...', '/var/www/html/A...', 37, Array)
+#1 [internal function]: AjaxController->logInAjaxAction()
+#2 /var/www/html/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#3 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___logInAjaxAct...', Array)
+#4 [internal function]: AjaxController::___logInAjaxAction()
+#5 /var/www/html/Yee/Route.php(462): call_user_func_array('AjaxController:...', Array)
+#6 /var/www/html/Yee/Yee.php(1333): Yee\Route->dispatch()
+#7 /var/www/html/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#8 /var/www/html/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#9 /var/www/html/Yee/Middleware/PrettyExceptions.php(67): Yee\Middleware\MethodOverride->call()
+#10 /var/www/html/Yee/Yee.php(1278): Yee\Middleware\PrettyExceptions->call()
+#11 /var/www/html/index.php(48): Yee\Yee->execute()
+#12 {main}
+ERROR - 2016-07-19 12:37:53 - exception 'ErrorException' with message 'Use of undefined constant falseeeee - assumed 'falseeeee'' in /var/www/html/App/Controllers/Ajax/AjaxController.php:36
+Stack trace:
+#0 /var/www/html/App/Controllers/Ajax/AjaxController.php(36): Yee\Yee::handleErrors(8, 'Use of undefine...', '/var/www/html/A...', 36, Array)
+#1 [internal function]: AjaxController->logInAjaxAction()
+#2 /var/www/html/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#3 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___logInAjaxAct...', Array)
+#4 [internal function]: AjaxController::___logInAjaxAction()
+#5 /var/www/html/Yee/Route.php(462): call_user_func_array('AjaxController:...', Array)
+#6 /var/www/html/Yee/Yee.php(1333): Yee\Route->dispatch()
+#7 /var/www/html/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#8 /var/www/html/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#9 /var/www/html/Yee/Middleware/PrettyExceptions.php(67): Yee\Middleware\MethodOverride->call()
+#10 /var/www/html/Yee/Yee.php(1278): Yee\Middleware\PrettyExceptions->call()
+#11 /var/www/html/index.php(48): Yee\Yee->execute()
+#12 {main}
+ERROR - 2016-07-19 12:37:58 - exception 'ErrorException' with message 'Use of undefined constant falseeeee - assumed 'falseeeee'' in /var/www/html/App/Controllers/Ajax/AjaxController.php:36
+Stack trace:
+#0 /var/www/html/App/Controllers/Ajax/AjaxController.php(36): Yee\Yee::handleErrors(8, 'Use of undefine...', '/var/www/html/A...', 36, Array)
+#1 [internal function]: AjaxController->logInAjaxAction()
+#2 /var/www/html/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#3 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___logInAjaxAct...', Array)
+#4 [internal function]: AjaxController::___logInAjaxAction()
+#5 /var/www/html/Yee/Route.php(462): call_user_func_array('AjaxController:...', Array)
+#6 /var/www/html/Yee/Yee.php(1333): Yee\Route->dispatch()
+#7 /var/www/html/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#8 /var/www/html/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#9 /var/www/html/Yee/Middleware/PrettyExceptions.php(67): Yee\Middleware\MethodOverride->call()
+#10 /var/www/html/Yee/Yee.php(1278): Yee\Middleware\PrettyExceptions->call()
+#11 /var/www/html/index.php(48): Yee\Yee->execute()
+#12 {main}
+ERROR - 2016-07-19 12:38:01 - exception 'ErrorException' with message 'Use of undefined constant falseeeee - assumed 'falseeeee'' in /var/www/html/App/Controllers/Ajax/AjaxController.php:36
+Stack trace:
+#0 /var/www/html/App/Controllers/Ajax/AjaxController.php(36): Yee\Yee::handleErrors(8, 'Use of undefine...', '/var/www/html/A...', 36, Array)
+#1 [internal function]: AjaxController->logInAjaxAction()
+#2 /var/www/html/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#3 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___logInAjaxAct...', Array)
+#4 [internal function]: AjaxController::___logInAjaxAction()
+#5 /var/www/html/Yee/Route.php(462): call_user_func_array('AjaxController:...', Array)
+#6 /var/www/html/Yee/Yee.php(1333): Yee\Route->dispatch()
+#7 /var/www/html/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#8 /var/www/html/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#9 /var/www/html/Yee/Middleware/PrettyExceptions.php(67): Yee\Middleware\MethodOverride->call()
+#10 /var/www/html/Yee/Yee.php(1278): Yee\Middleware\PrettyExceptions->call()
+#11 /var/www/html/index.php(48): Yee\Yee->execute()
+#12 {main}
+ERROR - 2016-07-19 12:38:01 - exception 'ErrorException' with message 'Use of undefined constant falseeeee - assumed 'falseeeee'' in /var/www/html/App/Controllers/Ajax/AjaxController.php:36
+Stack trace:
+#0 /var/www/html/App/Controllers/Ajax/AjaxController.php(36): Yee\Yee::handleErrors(8, 'Use of undefine...', '/var/www/html/A...', 36, Array)
+#1 [internal function]: AjaxController->logInAjaxAction()
+#2 /var/www/html/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#3 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___logInAjaxAct...', Array)
+#4 [internal function]: AjaxController::___logInAjaxAction()
+#5 /var/www/html/Yee/Route.php(462): call_user_func_array('AjaxController:...', Array)
+#6 /var/www/html/Yee/Yee.php(1333): Yee\Route->dispatch()
+#7 /var/www/html/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#8 /var/www/html/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#9 /var/www/html/Yee/Middleware/PrettyExceptions.php(67): Yee\Middleware\MethodOverride->call()
+#10 /var/www/html/Yee/Yee.php(1278): Yee\Middleware\PrettyExceptions->call()
+#11 /var/www/html/index.php(48): Yee\Yee->execute()
+#12 {main}
+ERROR - 2016-07-19 12:38:01 - exception 'ErrorException' with message 'Use of undefined constant falseeeee - assumed 'falseeeee'' in /var/www/html/App/Controllers/Ajax/AjaxController.php:36
+Stack trace:
+#0 /var/www/html/App/Controllers/Ajax/AjaxController.php(36): Yee\Yee::handleErrors(8, 'Use of undefine...', '/var/www/html/A...', 36, Array)
+#1 [internal function]: AjaxController->logInAjaxAction()
+#2 /var/www/html/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#3 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___logInAjaxAct...', Array)
+#4 [internal function]: AjaxController::___logInAjaxAction()
+#5 /var/www/html/Yee/Route.php(462): call_user_func_array('AjaxController:...', Array)
+#6 /var/www/html/Yee/Yee.php(1333): Yee\Route->dispatch()
+#7 /var/www/html/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#8 /var/www/html/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#9 /var/www/html/Yee/Middleware/PrettyExceptions.php(67): Yee\Middleware\MethodOverride->call()
+#10 /var/www/html/Yee/Yee.php(1278): Yee\Middleware\PrettyExceptions->call()
+#11 /var/www/html/index.php(48): Yee\Yee->execute()
+#12 {main}
+ERROR - 2016-07-19 12:38:02 - exception 'ErrorException' with message 'Use of undefined constant falseeeee - assumed 'falseeeee'' in /var/www/html/App/Controllers/Ajax/AjaxController.php:36
+Stack trace:
+#0 /var/www/html/App/Controllers/Ajax/AjaxController.php(36): Yee\Yee::handleErrors(8, 'Use of undefine...', '/var/www/html/A...', 36, Array)
+#1 [internal function]: AjaxController->logInAjaxAction()
+#2 /var/www/html/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#3 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___logInAjaxAct...', Array)
+#4 [internal function]: AjaxController::___logInAjaxAction()
+#5 /var/www/html/Yee/Route.php(462): call_user_func_array('AjaxController:...', Array)
+#6 /var/www/html/Yee/Yee.php(1333): Yee\Route->dispatch()
+#7 /var/www/html/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#8 /var/www/html/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#9 /var/www/html/Yee/Middleware/PrettyExceptions.php(67): Yee\Middleware\MethodOverride->call()
+#10 /var/www/html/Yee/Yee.php(1278): Yee\Middleware\PrettyExceptions->call()
+#11 /var/www/html/index.php(48): Yee\Yee->execute()
+#12 {main}

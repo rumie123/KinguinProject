@@ -44,10 +44,17 @@
 						<div class="col-md-9 col-sm-9 columns text-right">
 							<ul class="menu">
 								<li><a href="http://localhost/">Home </a></li>
+                                                               
+                                                                
+                                                                {% if session.islogged==false %}
                                                                 <li><a href="/signup">Signup </a></li>
-                                                                 <li><a href="/login">LogIn </a></li>
-						
-								<li class="has-dropdown"><a href="#">More</a>
+                                                                <li><a href="/login">Login </a></li>
+                                                          
+                                                                {% else %}
+                                                                <li><a href="/account">MyAccount </a></li>
+                                                                <li><a href="/logout">Logout </a></li>
+                                                                {% endif %}
+                                                                <li class="has-dropdown"><a href="#">More</a>
 									<div class="subnav subnav-more">
 										<div class="col-sm-6">
 											<h6 class="alt-font">Contents:</h6>

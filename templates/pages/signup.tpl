@@ -22,7 +22,7 @@
                         <div class="row">
                             <form method="post" action="/signup2">
                                 <div class="col-md-3 col-sm-4">
-                                        <input id="email" name="email" value="abc@d.com" class  placeholder="Your Email" type="text">
+                                        <input id="email" name="email" value="" class  placeholder="Your Email" type="text">
                                               <div style="display:none" class="alert alert-success" role="alert" id="error1"> </div>
                                 </div>
 

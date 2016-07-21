@@ -21,16 +21,12 @@ class ActivationController extends Controller
      
      $userExist= $acModel->checkIfAcCodeExist();
      
-     if ( !$userExist )
+    if ( !$userExist )
      {
-           $app->redirect('/signup',301);
+        $app->redirect('/signup',301);
      }
-     //var_dump( $userExist );
-     
      $acModel->activateUser ( $userExist );
      $app->redirect('/login');
     }
-        
-    
 }
     

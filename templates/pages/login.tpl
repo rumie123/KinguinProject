@@ -9,10 +9,9 @@
 	  <h1 class="text-white">Login to continue</h1>
           <div style="display:none" class="alert alert-success" role="alert" id="error"> </div>
 	  <div class="photo-form-wrapper clearfix">
-              <form id="loginform">
-               
-	    <input name="emailaddress" class="form-email" placeholder="Email Address" type="text">
-	    <input name="password" class="form-password" placeholder="Password" type="password">
+           <form id="loginform">  
+	    <input name="username" id="username" class="form-email" placeholder="Email Address" type="text">
+	    <input name="password" id="password" class="form-password" placeholder="Password" type="password">
 	    <input class="login-btn btn-filled" value="Login" type="submit">
 	   </form>
 	   </div>

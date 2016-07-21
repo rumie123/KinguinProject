@@ -9,7 +9,15 @@ $("#loginform").submit(function(e){
          dataType: "json",
          success: function(data)
          {
-             alert(data.error);
+             if( data.error == true)
+             {
+                
+                $('#error').html(data.errorMessage).fadeTo(1,1000);
+                 
+             } else {
+                 window.location.replace("/account");
+             }
+             
          }
        });
 e.preventDefault();

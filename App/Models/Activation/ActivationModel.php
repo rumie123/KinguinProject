@@ -29,8 +29,7 @@ class ActivationModel
     {
         $app = \Yee\Yee::getInstance();
         
-    $data = 
-    [
+    $data =[
          'activationCode'=>'',
          'active'=>1
     ];

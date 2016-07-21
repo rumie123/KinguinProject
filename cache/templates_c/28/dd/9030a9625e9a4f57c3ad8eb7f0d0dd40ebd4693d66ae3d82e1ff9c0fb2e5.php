@@ -71,10 +71,24 @@ class __TwigTemplate_28dd9030a9625e9a4f57c3ad8eb7f0d0dd40ebd4693d66ae3d82e1ff9c0
 \t\t\t\t\t\t<div class=\"col-md-9 col-sm-9 columns text-right\">
 \t\t\t\t\t\t\t<ul class=\"menu\">
 \t\t\t\t\t\t\t\t<li><a href=\"http://localhost/\">Home </a></li>
-                                                                <li><a href=\"/signup\">Signup </a></li>
-                                                                 <li><a href=\"/login\">LogIn </a></li>
-\t\t\t\t\t\t
-\t\t\t\t\t\t\t\t<li class=\"has-dropdown\"><a href=\"#\">More</a>
+                                                               
+                                                                
+                                                                ";
+        // line 49
+        if (($this->getAttribute((isset($context["session"]) ? $context["session"] : null), "islogged") == false)) {
+            // line 50
+            echo "                                                                <li><a href=\"/signup\">Signup </a></li>
+                                                                <li><a href=\"/login\">Login </a></li>
+                                                          
+                                                                ";
+        } else {
+            // line 54
+            echo "                                                                <li><a href=\"/account\">MyAccount </a></li>
+                                                                <li><a href=\"/logout\">Logout </a></li>
+                                                                ";
+        }
+        // line 57
+        echo "                                                                <li class=\"has-dropdown\"><a href=\"#\">More</a>
 \t\t\t\t\t\t\t\t\t<div class=\"subnav subnav-more\">
 \t\t\t\t\t\t\t\t\t\t<div class=\"col-sm-6\">
 \t\t\t\t\t\t\t\t\t\t\t<h6 class=\"alt-font\">Contents:</h6>
@@ -146,6 +160,6 @@ class __TwigTemplate_28dd9030a9625e9a4f57c3ad8eb7f0d0dd40ebd4693d66ae3d82e1ff9c0
 
     public function getDebugInfo()
     {
-        return array (  37 => 11,  33 => 10,  29 => 9,  19 => 1,);
+        return array (  91 => 57,  86 => 54,  80 => 50,  78 => 49,  37 => 11,  33 => 10,  29 => 9,  19 => 1,);
     }
 }
